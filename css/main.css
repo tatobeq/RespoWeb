@@ -48,6 +48,24 @@ a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
 }
 
 .word-with-bg { background: #6b50cd; color: #fff; padding: 0 5px 5px 5px !important;}
+header { position: absolute; top: 60px; left: 70px; z-index: 2; }
+footer { position: absolute; bottom: 40px; z-index: 2; left: 70px; }
+footer p { font-size: 13px; font-weight: bold; color: #868587; }
+
+.social { right: 70px; bottom: 20px; position: absolute; z-index: 2; }
+.social li { display: inline-block; list-style-type: none; }
+.svg--icon {
+  width: 100%;
+  max-width: 5rem;
+  height: 100%;
+  max-height: 5rem;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+}
+
+.st0 {fill:none; stroke:#777777;stroke-linecap:round;stroke-linejoin:round;}
+.st2{fill:none;stroke:#777777;stroke-linecap:round;stroke-linejoin:round;}
 
 /* Small devices (phones, 767px and down) */
 @media(max-width:767px){

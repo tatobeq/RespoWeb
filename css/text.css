@@ -4,7 +4,7 @@
   font-family: 'FuturaLT-Light';
   position: absolute;
   z-index: 2;
-  top: calc(50% - 100px);
+  top: calc(50% - 140px);
   left: 70px;
   letter-spacing: 2px;
 }
@@ -12,11 +12,14 @@
 .cd-words-wrapper {
   margin-left: -195px;
   margin-top: 95px;
+  color: #7e68d3;
+  font-weight: bold;
 }
 
 .cd-headline {
   font-size: 45px;
   line-height: 1;
+  font-weight: 500;
   font-family: 'FuturaLT-Light';
 }
 
