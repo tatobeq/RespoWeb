@@ -1,0 +1,40 @@
+html { overflow-x: hidden; overflow-y: auto; }
+html * { box-sizing: border-box; }
+body {
+  background: #fff;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 10px;
+  margin: 0;
+}
+a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
+
+#pt {
+  position: absolute;
+  left: 20px; top: 20px; bottom: 20px; right: 20px;
+  overflow: hidden;
+}
+
+
+/*FONTS*/
+@font-face {
+  font-family: 'DejaVuNeueCaps';
+  src: url('../fonts/DejaVuNeueCaps.eot');
+  src: url('../fonts/DejaVuNeueCaps.eot?#iefix') format('embedded-opentype'), url('../fonts/DejaVuNeueCaps.woff') format('woff'), url('../fonts/DejaVuNeueCaps.ttf') format('truetype'), url('../fonts/DejaVuNeueCaps.svg#DejaVuNeueCaps') format('svg');
+}
+
+/* Small devices (phones, 767px and down) */
+@media(max-width:767px){
+
+}
+/* Medium devices (tables, 768px and up) */
+@media(min-width:768px){
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px){
+
+}
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width:1200px){
+
+}
