@@ -49,8 +49,8 @@ a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
 
 .word-with-bg { background: #6b50cd; color: #fff; padding: 0 5px 5px 5px !important;}
 header { position: absolute; top: 60px; left: 70px; z-index: 2; }
-footer { position: absolute; bottom: 40px; z-index: 2; left: 70px; }
-footer p { font-size: 13px; font-weight: bold; color: #868587; }
+
+footer p { font-size: 13px; font-weight: bold; color: #868587; position: absolute; bottom: 40px; z-index: 2; left: 70px; }
 
 .social { right: 70px; bottom: 20px; position: absolute; z-index: 2; }
 .social li { display: inline-block; list-style-type: none; }
