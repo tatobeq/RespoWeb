@@ -56,9 +56,9 @@ footer p { font-size: 13px; font-weight: bold; color: #868587; }
 .social li { display: inline-block; list-style-type: none; }
 .svg--icon {
   width: 100%;
-  max-width: 5rem;
+  max-width: 50px;
   height: 100%;
-  max-height: 5rem;
+  max-height: 50px;
   display: block;
   margin: 0 auto;
   fill: currentColor;
@@ -66,6 +66,8 @@ footer p { font-size: 13px; font-weight: bold; color: #868587; }
 
 .st0 {fill:none; stroke:#777777;stroke-linecap:round;stroke-linejoin:round;}
 .st2{fill:none;stroke:#777777;stroke-linecap:round;stroke-linejoin:round;}
+
+.team_image { position: absolute; z-index: 2; width: 28%; right: 20px; top: 170px; }
 
 /* Small devices (phones, 767px and down) */
 @media(max-width:767px){
