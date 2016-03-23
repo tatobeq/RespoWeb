@@ -15,7 +15,7 @@ a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
   overflow: hidden;
   z-index: 1;
   width: 50%;
-  transition: ease .3s;
+  transition: ease .8s;
 }
 .pt-bigger { width: 100% !important; left: 20px !im; }
 .order-and-portfolio {
@@ -49,13 +49,13 @@ a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
   font-weight: normal;
   font-style: normal;
 }
-
+.hidden { display: none; }
 .word-with-bg { background: #6b50cd; color: #fff; padding: 0 5px 5px 5px !important;}
 header { position: absolute; top: 60px; left: 70px; z-index: 2; }
 
-footer p { font-size: 13px; font-weight: bold; color: #868587; position: absolute; bottom: 40px; z-index: 2; left: 70px; }
+footer p { font-size: 13px; font-weight: bold; color: #868587; position: absolute; bottom: 50px; z-index: 2; left: 70px; }
 
-.social { left: 15px; bottom: -10px; position: absolute; z-index: 2; }
+.social { left: 15px; bottom: 10px; position: absolute; z-index: 2; }
 .social li { display: inline-block; list-style-type: none; }
 .svg--icon {
   width: 100%;
@@ -69,8 +69,16 @@ footer p { font-size: 13px; font-weight: bold; color: #868587; position: absolut
 .st0 {fill:none; stroke:#777777;stroke-linecap:round;stroke-linejoin:round;}
 .st2{fill:none;stroke:#777777;stroke-linecap:round;stroke-linejoin:round; }
 
-.team_image { position: absolute; z-index: 2; width: 28%; right: 20px; top: 170px; }
-
+.second-step {z-index: 2; position: absolute;}
+.second-step h1{
+  margin-top: calc(100% - 80px);
+  left: 70px;
+  z-index: 2;
+  font-size: 55px;
+  color: #878786;
+  line-height: 52px;
+  position: relative;;
+}
 /* Small devices (phones, 767px and down) */
 @media(max-width:767px){
 

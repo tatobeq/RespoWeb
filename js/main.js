@@ -16,4 +16,20 @@ $( ".twitter" ).mouseleave(function() {
 
 $( ".make-order" ).click(function() {
   $("#pt").css("width", "calc(100% - 40px )");
+  $('.cd-intro').addClass('fadeOut');
+  $('.order-and-portfolio').addClass('fadeOut');
+
+
+
+  setTimeout(function() {
+     $(".second-step").removeClass("hidden").fadeIn(500);
+   }, 1100);
+
 });
+
+// $( document ).ready(function() {
+//  $( ".2016" ).delay( 12100 ).fadeOut( 900 );
+//  setTimeout(function() {
+//     $(".welcome_text").removeClass("hidden");
+//   }, 13500);
+// });
