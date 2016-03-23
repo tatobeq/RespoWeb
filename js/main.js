@@ -17,7 +17,7 @@ $( ".twitter" ).mouseleave(function() {
 $( ".make-order" ).click(function() {
   $("#pt").css("width", "calc(100% - 40px )");
   $('.cd-intro').addClass('fadeOut');
-  $('.order-and-portfolio').addClass('fadeOut');
+  $('#first-order-portfolio').addClass('fadeOut');
 
 
 
