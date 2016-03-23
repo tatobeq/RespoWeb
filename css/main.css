@@ -10,11 +10,14 @@ a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
 
 #pt {
   position: absolute;
-  left: 20px; top: 20px; bottom: 20px; right: 20px;
+  /*left: 20px;*/
+  top: 20px; bottom: 20px; right: 20px;
   overflow: hidden;
   z-index: 1;
+  width: 50%;
+  transition: ease .3s;
 }
-
+.pt-bigger { width: 100% !important; left: 20px !im; }
 .order-and-portfolio {
   font-size: 16px;
   right: 60px;
@@ -52,7 +55,7 @@ header { position: absolute; top: 60px; left: 70px; z-index: 2; }
 
 footer p { font-size: 13px; font-weight: bold; color: #868587; position: absolute; bottom: 40px; z-index: 2; left: 70px; }
 
-.social { right: 70px; bottom: 20px; position: absolute; z-index: 2; }
+.social { left: 15px; bottom: -10px; position: absolute; z-index: 2; }
 .social li { display: inline-block; list-style-type: none; }
 .svg--icon {
   width: 100%;
@@ -63,9 +66,8 @@ footer p { font-size: 13px; font-weight: bold; color: #868587; position: absolut
   margin: 0 auto;
   fill: currentColor;
 }
-
 .st0 {fill:none; stroke:#777777;stroke-linecap:round;stroke-linejoin:round;}
-.st2{fill:none;stroke:#777777;stroke-linecap:round;stroke-linejoin:round;}
+.st2{fill:none;stroke:#777777;stroke-linecap:round;stroke-linejoin:round; }
 
 .team_image { position: absolute; z-index: 2; width: 28%; right: 20px; top: 170px; }
 

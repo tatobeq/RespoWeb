@@ -21,7 +21,7 @@ form.stroke( false );
 function Dust() {
   Vector.apply( this, arguments ); // call Vector's constructor
   this.age = 0;
-  this.maxAge = Math.random() * 500 + 50;
+  this.maxAge = Math.random() * 5000 + 50;
   this.weight =  0.25 + Math.random()*4;
   this.color = (this.weight > 0.7) ? colors["a"+Math.ceil(Math.random()*4)] : "#000";
 }

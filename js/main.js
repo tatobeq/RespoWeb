@@ -12,3 +12,8 @@ $( ".twitter" ).mouseover(function() {
 $( ".twitter" ).mouseleave(function() {
   $(".st2").css("stroke", "#777");
 });
+
+
+$( ".make-order" ).click(function() {
+  $("#pt").css("width", "calc(100% - 40px )");
+});
