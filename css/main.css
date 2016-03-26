@@ -39,6 +39,14 @@ a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
   border-radius: 50px;
   padding: 10px 15px;
 }
+
+.order-and-portfolio .go-back {
+  background: #6D6D6D;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 15px;
+  z-index: 3;
+}
 /*FONTS*/
 
 @font-face {

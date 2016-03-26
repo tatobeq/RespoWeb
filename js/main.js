@@ -16,20 +16,50 @@ $( ".twitter" ).mouseleave(function() {
 
 $( ".make-order" ).click(function() {
   $("#pt").css("width", "calc(100% - 40px )");
-  $('.cd-intro').addClass('fadeOut');
-  $('#first-order-portfolio').addClass('fadeOut');
-
-
+  $('.cd-intro').toggleClass('fadeOut');
+  $('#first-order-portfolio').toggleClass('fadeOut');
 
   setTimeout(function() {
-     $(".second-step").removeClass("hidden").fadeIn(500);
+     $(".second-step").toggleClass("hidden").fadeIn(500);
    }, 1100);
+
+   setTimeout(function() {
+      $(".second-step").toggleClass("fadeIn");
+    }, 1400);
 
 });
 
-// $( document ).ready(function() {
-//  $( ".2016" ).delay( 12100 ).fadeOut( 900 );
-//  setTimeout(function() {
-//     $(".welcome_text").removeClass("hidden");
-//   }, 13500);
-// });
+$( ".go-back" ).click(function() {
+
+  setTimeout(function() {
+     $("#pt").css("width", "50%");
+   }, 400);
+
+
+  setTimeout(function() {
+     $('.cd-intro').toggleClass('fadeOut');
+     $('.cd-intro').toggleClass('fadeIn');
+
+   }, 1500);
+
+   setTimeout(function() {
+     $('.order-and-portfolio.second').toggleClass('fadeIn');
+     $('.order-and-portfolio.second').toggleClass('fadeOut');
+
+     $('#first-order-portfolio').toggleClass('fadeOut');
+     $('#first-order-portfolio').toggleClass('fadeIn');
+
+    }, 100);
+
+  // $('#first-order-portfolio').addClass('fadeOut');
+
+  setTimeout(function() {
+    $('.second-step.heading').toggleClass('fadeOut');
+  }, 100);
+
+
+  // setTimeout(function() {
+  //    $(".second-step").removeClass("hidden").fadeIn(500);
+  //  }, 1100);
+
+});
