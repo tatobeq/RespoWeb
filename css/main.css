@@ -59,7 +59,16 @@ a,a:hover, a:focus, a:visited {text-decoration: none; outline: none;}
 }
 .hidden { display: none; }
 .word-with-bg { background: #6b50cd; color: #fff; padding: 0 5px 5px 5px !important;}
-header { position: absolute; top: 60px; left: 70px; z-index: 2; }
+header { position: absolute; z-index: 2; }
+header .logo {
+  background: url('../imgs/Logo.svg');
+  height: 120px;
+  width: 220px;
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  left: 20px;
+}
 
 footer p { font-size: 13px; font-weight: bold; color: #868587; position: absolute; bottom: 50px; z-index: 2; left: 70px; }
 
