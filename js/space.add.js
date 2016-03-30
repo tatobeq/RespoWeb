@@ -5,7 +5,7 @@ window.demoDescription = "A very simple demo of Pt's main concepts: extending Pt
 //// 1. Define Space and Form
 var colors = {
   a1: "#ff2d5d", a2: "#42dc8e", a3: "#2e43eb", a4: "#ffe359",
-  b1: "#96bfed", b2: "#ebedf8", b3: "#f1f3f7", b4: "#e2e6ef",
+  b1: "#96bfed", b2: "#ebedf8", b3: "#EBEDF8", b4: "#59D2B0",
   c1: "#111", c2: "#567", c3: "#abc", c4: "rgba(255,255,255,.9)"
 };
 
@@ -22,7 +22,7 @@ function Dust() {
   Vector.apply( this, arguments ); // call Vector's constructor
   this.age = 0;
   this.maxAge = Math.random() * 5000 + 50;
-  this.weight =  0.25 + Math.random()*4;
+  this.weight =  0.25 + Math.random()*14;
   this.color = (this.weight > 0.7) ? colors["a"+Math.ceil(Math.random()*4)] : "#000";
 }
 Util.extend( Dust, Vector ); // extends Vector class
